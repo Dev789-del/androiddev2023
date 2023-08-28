@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">USTHWeather</string>
+    <string name="activity_title">Weather Forecast</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Mon">Mon</string>
+    <string name="weather_image">Here is a weather icon.</string>
+    <string name="Sat">Sat</string>
+    <string name="Fri">Fri</string>
+    <string name="Thu">Thu</string>
+    <string name="Wed">Wed</string>
+    <string name="Tue">Tue</string>
+    <string name="Sun">Sun</string>
+</resources>
