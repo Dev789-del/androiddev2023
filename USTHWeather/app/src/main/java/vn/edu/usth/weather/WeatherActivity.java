@@ -1,15 +1,13 @@
 package vn.edu.usth.weather;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.ImageView;
-import android.widget.Toolbar;
-
+import androidx.appcompat.widget.Toolbar;
 public class WeatherActivity extends AppCompatActivity {
     private static final String LOG_TAG = "WeatherActivity";
+    private Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,6 +17,8 @@ public class WeatherActivity extends AppCompatActivity {
         View frameworkLayout = findViewById(R.id.frame_layout);
         getSupportFragmentManager().beginTransaction().add(R.id.frame_layout, firstFragment).commit();
         setContentView(R.layout.activity_main);
+        toolbar = findViewById(R.id.myToolBar);
+        setSupportActionBar(toolbar);
         Log.i(LOG_TAG, "onCreate");
     }
     @Override
