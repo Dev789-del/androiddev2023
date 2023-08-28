@@ -10,7 +10,7 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: *YourNameHere*
-* ID: *YourIdHere*
-* Group ID: *Your Group ID here*
+* Name: Nguyễn Quang Huy
+* ID: BI11-113
+* Group ID: 4
 
