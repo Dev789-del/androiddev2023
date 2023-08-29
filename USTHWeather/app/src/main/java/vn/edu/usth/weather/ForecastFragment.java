@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toolbar;
 
 public class ForecastFragment extends Fragment {
 
@@ -47,6 +48,7 @@ public class ForecastFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+
         View FragmentView = inflater.inflate(R.layout.fragment_forecast, container, false);
         FragmentView.setBackgroundColor(Color.parseColor("#ffffff"));
         return FragmentView;

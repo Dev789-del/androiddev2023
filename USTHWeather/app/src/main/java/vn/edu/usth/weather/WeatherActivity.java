@@ -1,9 +1,12 @@
 package vn.edu.usth.weather;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
+
 import androidx.appcompat.widget.Toolbar;
 public class WeatherActivity extends AppCompatActivity {
     private static final String LOG_TAG = "WeatherActivity";
