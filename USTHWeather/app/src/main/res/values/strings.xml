@@ -11,4 +11,9 @@
     <string name="Tue">Tue</string>
     <string name="Sun">Sun</string>
     <string name="USTH_Weather">USTH Weather</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Cloudy">Cloudy</string>
+    <string name="Paris">Paris</string>
+    <string name="temperature">12C</string>
 </resources>
