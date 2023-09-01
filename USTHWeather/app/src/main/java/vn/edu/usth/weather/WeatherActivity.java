@@ -7,12 +7,11 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
-import android.widget.ImageView;
 
 import androidx.appcompat.widget.Toolbar;
 public class WeatherActivity extends AppCompatActivity {
     private static final String LOG_TAG = "WeatherActivity";
-    private Toolbar toolbar;
+    public Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
