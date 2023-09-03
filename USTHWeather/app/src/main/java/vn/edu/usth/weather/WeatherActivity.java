@@ -10,16 +10,21 @@ import android.view.MenuInflater;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.widget.Toolbar;
+import androidx.viewpager2.widget.ViewPager2;
 public class WeatherActivity extends AppCompatActivity {
     private static final String LOG_TAG = "WeatherActivity";
     public Toolbar toolbar;
+    HomeFragmentPagerAdapter viewPagerFragmentAdapter;
+    ViewPager2 viewPager2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_main);
         toolbar = findViewById(R.id.myToolBar);
         setSupportActionBar(toolbar);
+        viewPager2 = findViewById(R.id.view_for_pager);
+        viewPagerFragmentAdapter = new HomeFragmentPagerAdapter(this);
+        viewPager2.setAdapter(viewPagerFragmentAdapter);
         Log.i(LOG_TAG, "onCreate");
     }
 
