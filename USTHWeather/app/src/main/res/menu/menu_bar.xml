@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:title = "Refresh"
+        android:title = "Settings"
         android:icon = "@drawable/ic_settings"
         android:id="@+id/settings"
         app:showAsAction="ifRoom">
@@ -13,5 +13,4 @@
         android:id="@+id/refresh"
         app:showAsAction="ifRoom">
     </item>
-
 </menu>

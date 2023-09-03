@@ -18,8 +18,8 @@ public class WeatherActivity extends AppCompatActivity {
         // Create a new Fragment to be placed in the activity layout
         ForecastFragment firstFragment = new ForecastFragment();
         // Add the fragment to the 'container' FrameLayout
-        View frameworkLayout = findViewById(R.id.frame_layout);
-        getSupportFragmentManager().beginTransaction().add(R.id.frame_layout, firstFragment).commit();
+        //View frameworkLayout = findViewById(R.id.frame_layout);
+        //getSupportFragmentManager().beginTransaction().add(R.id.frame_layout, firstFragment).commit();
         setContentView(R.layout.activity_main);
         toolbar = findViewById(R.id.myToolBar);
         setSupportActionBar(toolbar);
