@@ -5,26 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".WeatherActivity">
-    <LinearLayout
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_for_pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:context=".WeatherActivity">
-        <include
-            layout="@layout/app_bar">
-        </include>
-        <fragment
-            android:layout_width="350dp"
-            android:layout_height="400dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            android:id="@+id/weather"
-            android:name="vn.edu.usth.weather.WeatherFragment"/>
-        <fragment
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:id="@+id/forecast"
-            android:name="vn.edu.usth.weather.ForecastFragment"/>
-    </LinearLayout>
+        android:layout_height="match_parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
