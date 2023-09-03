@@ -14,9 +14,10 @@
             layout="@layout/app_bar">
         </include>
         <fragment
-            android:layout_width="match_parent"
+            android:layout_width="350dp"
             android:layout_height="400dp"
             android:layout_weight="1"
+            android:layout_gravity="center"
             android:id="@+id/weather"
             android:name="vn.edu.usth.weather.WeatherFragment"/>
         <fragment
