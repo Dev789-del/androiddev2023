@@ -6,16 +6,16 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
-
-import androidx.viewpager.widget.PagerAdapter;
-import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager2.widget.ViewPager2;
+import com.google.android.material.tabs.TabLayout;
 public class WeatherActivity extends AppCompatActivity {
     private static final String LOG_TAG = "WeatherActivity";
     public Toolbar toolbar;
-    HomeFragmentPagerAdapter viewPagerFragmentAdapter;
-    ViewPager2 viewPager2;
+    private HomeFragmentPagerAdapter viewPagerFragmentAdapter;
+    private ViewPager2 viewPager2;
+
+    private TabLayout tabLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -11,6 +11,23 @@
         android:orientation="vertical">
         <include
             layout="@layout/app_bar" />
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tab_view">
+            <com.google.android.material.tabs.TabItem
+                android:text="HANOI, VIETNAM"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+            <com.google.android.material.tabs.TabItem
+                android:text="PARIS, FRANCE"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+            <com.google.android.material.tabs.TabItem
+                android:text="TOULOUSE, FRANCE"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+        </com.google.android.material.tabs.TabLayout>
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/view_for_pager"
             android:layout_width="match_parent"
