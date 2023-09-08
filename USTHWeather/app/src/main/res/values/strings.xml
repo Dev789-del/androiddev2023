@@ -2,18 +2,20 @@
     <string name="app_name">USTHWeather</string>
     <string name="activity_title">Weather Forecast</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="Mon">Mon</string>
+    <string name="Mon">Thứ 2</string>
     <string name="weather_image">Here is a weather icon.</string>
-    <string name="Sat">Sat</string>
-    <string name="Fri">Fri</string>
-    <string name="Thu">Thu</string>
-    <string name="Wed">Wed</string>
-    <string name="Tue">Tue</string>
-    <string name="Sun">Sun</string>
+    <string name="Sat">Thứ 7</string>
+    <string name="Fri">Thứ 6</string>
+    <string name="Thu">Thứ 5</string>
+    <string name="Wed">Thứ 4</string>
+    <string name="Tue">Thứ 3</string>
+    <string name="Sun">Chủ nhật</string>
     <string name="USTH_Weather">USTH Weather</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="Cloudy">Cloudy</string>
     <string name="Paris">Paris</string>
     <string name="temperature">12C</string>
+    <string name="Scattered_Thunderstorms">Dông dải rác</string>
+    <string name="last_day_temperature">23C -27C</string>
 </resources>
