@@ -1,46 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="350dp"
+    android:layout_width="400dp"
     android:layout_height="150dp"
     tools:context=".WeatherFragment"
     android:orientation="vertical"
     android:layout_gravity="top"
-    android:background="#c4f2ab">
+    android:background="#c4f2ab"
+    android:padding="10sp">
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="400dp"
         android:layout_height="150dp"
         android:orientation="vertical">
-
-        <TextView
-            android:layout_width="76dp"
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:src="@drawable/partly_sunny_cloudy"></ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/temperature"></TextView>
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/Paris"></TextView>
+        </LinearLayout>
 
         <TextView
             android:layout_width="76dp"
             android:layout_height="wrap_content"
             android:text="@string/Cloudy"></TextView>
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:orientation="vertical">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="right"
-            android:text="@string/Paris"></TextView>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:orientation="vertical">
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_gravity="center"
-            android:src="@drawable/partly_sunny_cloudy"></ImageView>
-    </LinearLayout>
+    <TextView
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:text="@string/temperature"/>
+
 </RelativeLayout >

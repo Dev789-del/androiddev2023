@@ -18,4 +18,19 @@
     <string name="temperature">12C</string>
     <string name="Scattered_Thunderstorms">Dông dải rác</string>
     <string name="last_day_temperature">23C -27C</string>
+    <string name="cloudy_vn">Nhiều mây</string>
+    <string name="first_monday_temper">24C - 31C</string>
+    <string name="showers_vn">Mưa</string>
+    <string name="first_tuesday_temper">24C - 31C</string>
+    <string name="first_wed_temper">22C - 23C</string>
+    <string name="rain_vn">Mưa</string>
+    <string name="scattered_showers">Mưa rào rải rác</string>
+    <string name="thursday_temper">21C - 27C</string>
+    <string name="friday_temper">22C - 30C</string>
+    <string name="saturday_temper">24C - 31C</string>
+    <string name="sunny_vn">Nắng</string>
+    <string name="sunday_temper">25C - 28C</string>
+    <string name="thunderstorms_vn">Mưa rào</string>
+    <string name="second_monday_temper">24C - 27C</string>
+    <string name="second_tuesday_temper">24C - 26C</string>
 </resources>
